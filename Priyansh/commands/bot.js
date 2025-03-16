@@ -199,10 +199,30 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Why can't I be sad because of everyone <3 love you <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "does the bot love you") || (event.body.toLowerCase() == "does the bot love you")) {
-     return api.sendMessage("Yes I love you and everyone so much", threadID);
+   if ((event.body.toLowerCase() == "music") || (event.body.toLowerCase() == "music")) {
+     return api.sendMessage("baby mai aap ka nokar na hu jake youtub pe serch kar ke suno music", threadID);
    };
 
+  if((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "owner")) {
+     return api.sendMessage("mera owner prince hai chal ab jaan gya na nikal apni buri sakal leke", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "Bot") || (event.body.toLowerCase() == "Bot")) {
+     return api.sendMessage("Tujhe samjh nahi aata kaiko pareshan karti hame Lol kahi ki", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "By") || (event.body.toLowerCase() == "By")) {
+     return api.sendMessage("Nikal ja ab dubara dikha to tang tod dunga", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "Bhad me jao") || (event.body.toLowerCase() == "Bhad me jao")) {
+     return api.sendMessage("Abe teri jaat ki paida maru sudhar ja warna teri aisi taisi kar dunga Lol kahi ki", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "Bot ko Nikalo") || (event.body.toLowerCase() == "Bot ko Nikalo")) {
+     return api.sendMessage("Abe chudail dayan group wali banti hai tu kya nikalegi mai khud nikal jata rakh group apne pass", threadID);
+   };
+  
    if ((event.body.toLowerCase() == "bot goes to sleep") || (event.body.toLowerCase() == "bot goes to sleep")) {
      return api.sendMessage("I'm a bot, you're the one who should go to sleep <3", threadID);
    };
@@ -211,10 +231,18 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Saalo chidda rahe ho mujhe", threadID);
    };
 
-   if ((event.body.toLowerCase() == "has the bot eaten yet") || (event.body.toLowerCase() == "bot an comrade")) {
-     return api.sendMessage("I'm full when I see you eat <3", threadID);
+  if ((event.body.toLowerCase() == "Bot") || (event.body.toLowerCase() == "🤖")) {
+     return api.sendMessage("Saalo chidda rahe ho mujhe", threadID);
+   };
+  
+   if ((event.body.toLowerCase() == "Bekar Bot") || (event.body.toLowerCase() == "Bekar Bot")) {
+     return api.sendMessage("Abe khud pahle jake sakal dekh tab hame bekar bolna <3", threadID);
    };
 
+  if ((event.body.toLowerCase() == "Bekar Bot") || (event.body.toLowerCase() == "Bekar Bot")) {
+     return api.sendMessage("Abe khud pahle jake sakal dekh tab hame bekar bolna <3", threadID);
+   };
+  
   if ((event.body.toLowerCase() == "lob you") || (event.body.toLowerCase() == "i lob you")) {
      return api.sendMessage("Lob You too", threadID);
    };
@@ -223,7 +251,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Yes <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Hur") || (event.body.toLowerCase() == "&Fuck")) {
+   if ((event.body.toLowerCase() == "Hur") || (event.body.toLowerCase() == "Hur")) {
      return api.sendMessage("🏔️🏝️Prince Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
    };
 
